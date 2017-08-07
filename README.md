@@ -12,23 +12,23 @@ For the last 52 million years bats use echo-location for navigation, localizatio
 Focusing at the on the robotic orientation aspects of the Agrirobot, developing a SONAR based method for robotic- mapping, obstacle avoidance and path planning in a greenhouse or an orchard. This will allow the yield-assessment robot to autonomously navigate in the greenhouse or orchard based on bio-SONAR only. Such an ability is an essential step on the way to developing a fully automatic yield assessment approach which will be far cheaper and more accurate than the all measures which are currently in use.
 
 ### Thesis Outline ###
-* Introduction
-* Equipment
+* Introduction<br>
+* Hardware & Software <br>
 
-* Passive Sonar Localization (BAT-GPS)
-    Basics of high frequency chirp signals
-    Transmit, receive signal using independent systems
-    Cross correlation between signals
-    TDOA – Time Difference Of Arrival Methods (Chan, Foy, Grid-Search)
+* Passive Sonar Localization (BAT-GPS) <br>
+    Basics of high frequency chirp signals <br>
+    Transmit, receive signal using independent systems<br>
+    Cross correlation between signals<br>
+    TDOA – Time Difference Of Arrival Methods (Chan, Foy, Grid-Search)<br>
 
-* Active Sonar Navigation
-    Construct 2D map base on acoustic signals
-    Advantages of ultrasonic signals to “See-Trough” objects
+* Active Sonar Navigation<br>
+    Construct 2D map base on acoustic signals<br>
+    Advantages of ultrasonic signals to “See-Trough” objects<br>
 
-* Path Planning and Classification
-    Classification of signals using Neural Network - TensorFlow
-    Path planning based ROS Navigation Stacks
-    Decision making - Cul-de-Sac
+* Path Planning and Classification<br>
+    Classification of signals using Neural Network - TensorFlow<br>
+    Path planning based ROS Navigation Stacks<br>
+    Decision making - Cul-de-Sac<br>
 
 ### Hardware ###
 * Komodo Robot Platform
