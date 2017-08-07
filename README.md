@@ -6,9 +6,6 @@ Sonar Based SLAMC (Simultaneous Localization, Mapping and Classification)
 <img src="https://s1.postimg.org/wx57c59rz/Robot_Greenhouse.png" height="400" width=auto>
 </p>
 
-
-* Still working on it<br><br>
-
 ### Contacts ###
 Itamar Eliakim, Editor <br>
 Dr. Yossi Yovel, Advisor <br>
