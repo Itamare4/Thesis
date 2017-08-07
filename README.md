@@ -10,9 +10,9 @@ Sonar Based SLAMC (Simultaneous Localization, Mapping and Classification)
 * Still working on it<br><br>
 
 ### Contacts ###
-Itamar Eliakim, Editor
-Dr. Gabor Kosa, Advisor 
-Dr. Yossi Yovel, Advisor
+Itamar Eliakim, Editor <br>
+Dr. Gabor Kosa, Advisor <br>
+Dr. Yossi Yovel, Advisor <br>
 
 ### Abstract ###
 For the last 52 million years bats use echo-location for navigation, localization and classification purpose. Agrirobot, innovative approach to agricultural technology using bio-inspired SONAR, based on similar acoustic signals that bats transmit we can apply different methods for solving the well-known SLAM problem.
