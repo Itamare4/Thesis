@@ -3,9 +3,16 @@ Sonar Based SLAMC (Simultaneous Localization, Mapping and Classification)
 ------------------------
 <p align="center">
 <img src="http://i.imgur.com/NUavBHa.png" height="400" width=auto>
+<img src="https://s1.postimg.org/wx57c59rz/Robot_Greenhouse.png" height="400" width=auto>
 </p>
 
+
 * Still working on it<br><br>
+
+### Contacts ###
+Itamar Eliakim, Editor
+Dr. Gabor Kosa, Advisor 
+Dr. Yossi Yovel, Advisor
 
 ### Abstract ###
 For the last 52 million years bats use echo-location for navigation, localization and classification purpose. Agrirobot, innovative approach to agricultural technology using bio-inspired SONAR, based on similar acoustic signals that bats transmit we can apply different methods for solving the well-known SLAM problem.
@@ -73,12 +80,16 @@ Experiments done in 3 different locations: Robotics LAB - Wolfson Building, Tel 
 | Palm Greenhouse, Botanical Garden | Pteridophytes Greenhouse, Botanical Garden | Wolfson Building, Mechanical Engineering Faculty |
 
 ### Results ###
-
-
+<p align="center">
+<img src="https://s21.postimg.org/5t7uni16v/image.png" height="300"><br>Sonar Localization, Mapping and Classification, with 3 iteration of IOI, iterative obstacle inflation.<br>
+link - https://github.com/Itamare4/ROS_smooth_map
+</p>
+<p align="center">
+<img src="https://s1.postimg.org/3oyl0qd8v/image.png" height="150"><br>Palm Greenhouse Top View, Ground Truth Based on Aerial Footage Using DJI Phantom 4<br>
+</p>
 
 ### Videos ###
 [![SLAMC](http://img.youtube.com/vi/I9OVUKLDUHE/0.jpg)](http://www.youtube.com/watch?v=I9OVUKLDUHE "Sonar Based SLAMC(Simultaneous Localization Mapping and Classification) ")
-
 
 ### Photo Album ###
 Photos from outdoor, indoor experiments are available on:<br>
