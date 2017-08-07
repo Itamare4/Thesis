@@ -27,7 +27,8 @@ Focusing at the on the robotic orientation aspects of the Agrirobot, developing 
 
 * Active Sonar Navigation<br>
     * Construct 2D map base on acoustic signals<br>
-    * Advantages of ultrasonic signals to “See-Trough” objects<br>
+    * Iterative Obstacle Inflation<br>
+    * Advantages of ultrasonic signals, use of one and two ears<br>
 
 * Path Planning and Classification<br>
     * Classification of signals using Neural Network - TensorFlow<br>
