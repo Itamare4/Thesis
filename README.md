@@ -16,19 +16,19 @@ Focusing at the on the robotic orientation aspects of the Agrirobot, developing 
 * Hardware & Software <br>
 
 * Passive Sonar Localization (BAT-GPS) <br>
-    Basics of high frequency chirp signals <br>
-    Transmit, receive signal using independent systems<br>
-    Cross correlation between signals<br>
-    TDOA – Time Difference Of Arrival Methods (Chan, Foy, Grid-Search)<br>
+    * Basics of high frequency chirp signals <br>
+    * Transmit, receive signal using independent systems<br>
+    * Cross correlation between signals<br>
+    * TDOA – Time Difference Of Arrival Methods (Chan, Foy, Grid-Search)<br>
 
 * Active Sonar Navigation<br>
-    Construct 2D map base on acoustic signals<br>
-    Advantages of ultrasonic signals to “See-Trough” objects<br>
+    * Construct 2D map base on acoustic signals<br>
+    * Advantages of ultrasonic signals to “See-Trough” objects<br>
 
 * Path Planning and Classification<br>
-    Classification of signals using Neural Network - TensorFlow<br>
-    Path planning based ROS Navigation Stacks<br>
-    Decision making - Cul-de-Sac<br>
+    * Classification of signals using Neural Network - TensorFlow<br>
+    * Path planning based ROS Navigation Stacks<br>
+    * Decision making - Cul-de-Sac<br>
 
 ### Hardware ###
 * Komodo Robot Platform
@@ -36,19 +36,21 @@ Focusing at the on the robotic orientation aspects of the Agrirobot, developing 
 link: <br> https://github.com/Itamare4/dji_ronin
 * Speed of sound calibration
 * Passive Localization Unit:<br>
-    4x Avisoft Vifa Speaker<br>
-    1x DAQ - Measurement Computing - USB-1608GX-2AO<br>
-    1x Avisoft Bioacoustics CM16/CMPA40-5V - Omni microphone<br>
-    1x Sony XM-GS4 <br>
-    
+    * 4x Avisoft Vifa Speaker<br>
+    * 1x DAQ - Measurement Computing - USB-1608GX-2AO<br>
+    * 1x Avisoft Bioacoustics CM16/CMPA40-5V - Omni microphone<br>
+    * 1x Sony XM-GS4 <br>
+<p align="center">
+<img src="https://s1.postimg.org/lkh4hlq4f/Localization_Equipment.png">
+</p>  <br>
 * Front Sensing Unit:<br>
-    1x Avisoft Vifa Speaker<br>
-    1x DAQ - Measurement Computing - USB-1608GX-2AO<br>
-    2x Avisoft Bioacoustics CM16/CMPA40-5V - Directional microphone<br>
-    1x Sony XM-GS4 <br>
-    1x Thermal Camera - Flir Ax5 <br>
-    1x RGB Camera - uEye CP <br>
-    1x Leica D410 <br>
+    * 1x Avisoft Vifa Speaker<br>
+    * 1x DAQ - Measurement Computing - USB-1608GX-2AO<br>
+    * 2x Avisoft Bioacoustics CM16/CMPA40-5V - Directional microphone<br>
+    * 1x Sony XM-GS4 <br>
+    * 1x Thermal Camera - Flir Ax5 <br>
+    * 1x RGB Camera - uEye CP <br>
+    * 1x Leica D410 <br>
 <p align="center">
 <img src="https://s2.postimg.org/4sfwmqti1/Front_Sensing_Unit.png">
 </p>
@@ -62,6 +64,18 @@ link: <br> https://github.com/Itamare4/dji_ronin
 <p align="center">
 <img src="https://s1.postimg.org/r1yypslxr/Algorithm_Arch.png" height="400" width=auto>
 </p>
+
+### Experiments ###
+Experiments done in 3 different locations: Robotics LAB - Wolfson Building, Tel Aviv University, first experiments done indoor mapping of the lab environment, mapping dimensions - (6m x 4m),  this set of experiments done based on one ear mapping, will explained below, at each point the robot collects chirp signals at 5 different angles,  [-90°,-45°,0°,45°,90°], second set of experiments done at pteridophytes greenhouse at Botanical Garden, Tel Aviv University, mapping dimensions (5m x 12m), mapping based on two ears(ITD), at each point the robot collects chirp signals at 3 different angles, (0,-60, 60). third set done at the palm greenhouse at Botanical Garden, Tel Aviv University, mapping dimensions (40m x 5m), data collections similar to experiments done at the pteridophytes greenhouse.
+
+| [![Palm](https://s2.postimg.org/g07xtrgyx/Palm_EXP.png)](https://s2.postimg.org/g07xtrgyx/Palm_EXP.png)  | [![Pteridophytes](https://s2.postimg.org/oxsnr49et/Pteridophytes_EXP.png)](https://s2.postimg.org/oxsnr49et/Pteridophytes_EXP.png) | [![Wolfson](https://s2.postimg.org/3mv3murad/Wolfson_EXP.png)](https://s2.postimg.org/3mv3murad/Wolfson_EXP.png) |
+|:---:|:---:|:---:|
+| Palm Greenhouse, Botanical Garden | Pteridophytes Greenhouse, Botanical Garden | Wolfson Building, Mechanical Engineering Faculty |
+
+
+### Photo Album ###
+Photos from outdoor, indoor experiments are available on:<br>
+link: 
 
 ### Publications & Citations ###
 ▪	Eliakim I., Yovel Y., Kosa G., “Acoustic Self-Localization for Mobile Robots” IPIN (Indoor Positioning Indoor Navigation) 2016, Madrid, Spain<br>
