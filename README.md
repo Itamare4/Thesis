@@ -3,7 +3,7 @@ Sonar Based SLAMC (Simultaneous Localization, Mapping and Classification)
 ------------------------
 <p align="center">
 <img src="http://i.imgur.com/NUavBHa.png" height="400" width=auto>
-<img src="https://s1.postimg.org/wx57c59rz/Robot_Greenhouse.png" height="400" width=auto>
+<img src="https://github.com/Itamare4/Thesis_private/raw/master/MD_Images/Robot_Back_GreenHouse.png?raw=true" height="400" width=auto>
 </p>
 
 ### Contacts ###
